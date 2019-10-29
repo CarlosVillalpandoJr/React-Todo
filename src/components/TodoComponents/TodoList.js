@@ -3,6 +3,7 @@ import React from 'react';
 // feel free to change this component.js into TodoList.js
 
 const TodoList = props => {
+    console.log('TodoList Props: ', props)
     return (
         <div className='todo-list'>
 

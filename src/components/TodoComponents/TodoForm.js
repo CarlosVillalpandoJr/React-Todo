@@ -17,10 +17,11 @@ class TodoForm extends React.Component {
                         id='todo'
                         type='text'
                         placeholder='Add New Todo'
-                        value={this.state.todo}
                         />
                 </form>
             </div>
         )
     }
 }
+
+export default TodoForm; 
